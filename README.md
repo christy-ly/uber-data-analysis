@@ -11,25 +11,23 @@ The goal is to understand how riders use Uber, why rides fail, and what factors 
 
 ## 🔎 Analysis Breakdown
 - **Demand & Booking Performance:**
-    - Monthly Booking Volume Trends
-    - Booking Results Distribution (Completed vs Cancelled vs Incomplete)
+    - Monthly Uber Booking Volume
     - Bookings by Weekday Across Months
-    - Hourly Demand Patterns
+    - Hourly Uber Bookings by Weekday
+    - Booking Results Distribution (Completed vs Cancelled vs Incomplete)
 - **Booking Cancellation Analysis:** 
-    - Top cancellation reasons
-    - Customer and Driver cancellations
-    - Relationship between wait time and cancellations
-    - Impact of cancellations on ratings
+    - Top Cancellation Reasons by Customers
+    - Relationship between Wait Time and Cancellations
+    - The top 10 Pickup Locations with the Highest Number of Incomplete Orders
 - **Service Quality Metrics:**
-    - Avg VTAT & CTAT by vehicle type
+    - Average VTAT and CTAT
+    - Average Driver and Customer Ratings by Vehicle Type
+    - Average Driver and Customer Ratings by VTAT and CTAT
 - **Revenue & Distance Analysis:**
-    - Monthly revenue trend
-    - Revenue by vehicle type
-    - High-value ride segments
-    - Relationship between ride distance and booking value
+    - Monthly Revenue Trend  
+    - Revenue by Vehicle Type  
+    - Revenue by Ride Distance
 - **Payment Behavior**
-    - Payment preference distribution
-    - Cancellation rate by payment type
 
 ## 🔧 Libraries Used
 - Use **NumPy** for Numerical computations
